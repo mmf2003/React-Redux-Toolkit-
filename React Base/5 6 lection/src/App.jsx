@@ -2,6 +2,8 @@ import "./App.css";
 import Authors from "./components/Authors";
 import HillelCourses from "./components/HillelCourses";
 import ProductCard from "./components/ProductCard";
+import UserProfile from "./components/UserProfile";
+import Welcome from "./components/welcome";
 
 function App() {
     return (
@@ -23,6 +25,9 @@ function App() {
 
                 <footer>© 2024 Hillel IT School</footer>
             </main>
+
+            <Welcome name="Alex" currentYear={1989} />
+            <UserProfile />
         </>
     );
 }
