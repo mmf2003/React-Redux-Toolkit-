@@ -2,6 +2,7 @@ import "./App.css";
 import Button from "./components/Button";
 import ProductPrice from "./components/ProductPrice";
 import SayHello from "./components/SayHello";
+import Title from "./components/Title";
 import UserCard from "./components/UserCard";
 
 function App() {
@@ -15,6 +16,10 @@ function App() {
                 text="Натисни мене"
                 disabled={false}
             />
+            <Title>
+                <p>Home</p>
+                <p>1234</p>
+            </Title>
         </>
     );
 }
